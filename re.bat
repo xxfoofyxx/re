@@ -19,7 +19,7 @@ echo now, you should try putting all your files into one ZIP or CAB file.
 echo.
 echo.
 echo Wanna contribute?
-echo Head over to https://1f.ddns.net/r/REGithub.
+echo Head over to https://github.com/xxfoofyxx/re, or run re with the "github" option.
 exit /b
 
 :e
@@ -44,4 +44,9 @@ echo Complete! Cleaning up temporary files.
 del %2.tmp
 del tmp%jid%.bat
 echo Exiting.
+exit /b
+
+:github
+echo Opening the repo in your default web browser...
+start https://github.com/xxfoofyxx/re
 exit /b
