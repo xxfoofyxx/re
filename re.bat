@@ -13,13 +13,9 @@ echo inside of "OutputFile.bat". Optionally, you can specify
 echo "con" as an output file to output to console.
 echo.
 echo Warning:
-echo With the current version of RE, you can only embed one resource into a file.
-echo This is being worked on and should soon be fixed in the next release, so for
-echo now, you should try putting all your files into one ZIP or CAB file.
-echo.
-echo.
-echo Wanna contribute?
-echo Head over to https://github.com/xxfoofyxx/re, or run re with the "github" option.
+echo With RE, you can only embed one resource into a file.
+echo Trying to embed more than one will result in only the first being extracted.
+echo If you must embed multiple files, please place them into a ZIP :)
 exit /b
 
 :e
